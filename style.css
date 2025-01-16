@@ -30070,6 +30070,12 @@ label.error {
   margin-bottom: 30px;
 }
 
+.snu-footer-logo {
+  display: block;
+  margin: 0 auto 30px;
+  width: 250px;
+}
+
 /* ----------------------------------------------------------------
 
 	widgets.scss
