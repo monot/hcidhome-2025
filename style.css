@@ -20085,7 +20085,8 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 .slider-caption h2, .slider-caption .h2 {
   color: var(--cnvs-slider-caption-font-color);
-  text-shadow: none;
+  /* text-shadow: none; */
+  text-shadow: #fff 0 0 10px;
 }
 .slider-caption h2, .slider-caption .h2 {
   font-size: 3.25rem;
@@ -20095,9 +20096,16 @@ body:not(.has-plugin-html5video) .video-wrap video {
   line-height: 1.1;
   margin-bottom: 0;
 }
+.slider-caption span {
+  background-color: rgba(255, 255, 255, 0.7);
+    /* 0.7은 투명도(0~1) */;
+}
 @media (max-width: 767.98px) {
   .slider-caption h2, .slider-caption .h2 {
-    font-size: 5.5vw;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 1rem;
   }
 }
 .slider-caption p {
@@ -20107,7 +20115,14 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 @media (max-width: 767.98px) {
   .slider-caption p {
-    font-size: 2.6vw;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+  }
+  
+  .slider-caption p.d-none.d-sm-block {
+    display: block !important;
   }
 }
 
@@ -33564,4 +33579,25 @@ body.dark {
   color: rgba(255, 255, 255, 0.4);
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+/* h4 font size adjustment
+h4, h4.panel-title, .panel-title h4, body h4, .content-wrap h4 {
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.3em !important;
+} */
 /*# sourceMappingURL=style.css.map */
+
+.custom-panel {
+  background: #f5f5f5;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.custom-panel ul {
+  padding-left: 1.2em;
+}
+.custom-panel li {
+  margin-left: 0;
+}
