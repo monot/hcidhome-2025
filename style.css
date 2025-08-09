@@ -13922,7 +13922,7 @@ h6 > span:not(.nocolor):not(.badge),
 
 p,
 pre,
-ul,
+/* ul, */
 ol,
 dl,
 dd,
