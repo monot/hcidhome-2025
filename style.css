@@ -26883,6 +26883,30 @@ td.actions {
   font-size: var(--cnvs-team-title-designation-font-size);
   margin-top: 5px;
 }
+.alumni-title {
+  position: relative;
+  /* padding-top: 20px; */
+}
+
+.alumni-title h4,
+.alumni-title .h4 {
+  display: block;
+  margin-bottom: 0;
+  font-size: var(--cnvs-team-title-font-size);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.alumni-title span {
+  display: block;
+  color: var(--cnvs-team-title-designation-font-color);
+  font-weight: var(--cnvs-team-title-designation-font-weight);
+  font-family: var(--cnvs-team-title-designation-font-family);
+  font-style: var(--cnvs-team-title-designation-font-style);
+  font-size: var(--cnvs-team-title-designation-font-size);
+  margin-top: 5px;
+}
 .team-content {
   margin-top: 1rem;
   color: var(--cnvs-team-content-font-color);
