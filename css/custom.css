@@ -5,3 +5,15 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+.team-image-student {
+	width: 100%;
+	aspect-ratio: 440 / 538;
+	overflow: hidden;
+}
+
+.team-image-student img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
